@@ -14,3 +14,8 @@ Copyright (c) 2020 ZeroTier, Inc.
 Licensed under the ZeroTier BSL 1.1 (see LICENSE.txt)
 Usage: zerotier-one [-switches] [home directory]
 -------------------
+BusyBox v1.35.0 (2023-01-25 14:56:15 UTC) multi-call binary.
+BusyBox is copyrighted by many authors between 1998-2015.
+Licensed under GPLv2. See source distribution for detailed
+copyright notices.
+-------------------

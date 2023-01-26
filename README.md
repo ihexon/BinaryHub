@@ -31,4 +31,5 @@ All binary build for `MIPS32 version 1 (SYSV)`, and statically linked.
 e8884f5beb37ff66c9d24f3b71584811f8b426b8  mips32_big_endian/strace
 429b5f9213b8492b62e8444da551d86a5758ab24  mips32_big_endian/tcpdump
 a43067848838ab756216065760307fd4fac8935e  mips32_big_endian/zerotier-one
+961a560f3aabf610bcadc3a04605e0fe571dc078  mips32_big_endian/busybox
 ```
