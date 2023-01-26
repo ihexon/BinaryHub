@@ -1,0 +1,16 @@
+-----------------
+tcpdump version 4.99.2
+libpcap version 1.10.2 (with TPACKET_V3)
+------------------
+strace -- version 6.1
+Copyright (c) 1991-2022 The strace developers <https://strace.io>.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Optional features enabled: (none)
+------------------
+ZeroTier One version 1.8.10
+Copyright (c) 2020 ZeroTier, Inc.
+Licensed under the ZeroTier BSL 1.1 (see LICENSE.txt)
+Usage: zerotier-one [-switches] [home directory]
+-------------------

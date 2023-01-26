@@ -25,7 +25,7 @@ isa                     : mips1 mips2 mips32r1 mips32r2
 ASEs implemented        : mips16 dsp mt
 ```
 
-All binary build for ```MIPS32 version 1 (SYSV)```, and statically linked. 
+All binary build for `MIPS32 version 1 (SYSV)`, and statically linked. 
 
 ```binary
 e8884f5beb37ff66c9d24f3b71584811f8b426b8  mips32_big_endian/strace
