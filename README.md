@@ -7,16 +7,16 @@ Here are some compiled binaries, mainly for MIPS and ARM platforms.
 
 Before download any binary, these few files will help you and save your time.
 
-sha1sum of all binary: [sha1sum.txt](https://raw.githubusercontent.com/ihexon/BinaryHub/main/mips32_big_endian/sha1sum.txt)
-Release version: [Release](https://raw.githubusercontent.com/ihexon/BinaryHub/main/mips32_big_endian/Release)
-Changelog: [ChangeLog](https://github.com/ihexon/BinaryHub/blame/main/mips32_big_endian/ChangeLog)
-[BinaryNote.md](./mips32_big_endian/BinaryNote.md)
+- [Sha1sum.txt](https://raw.githubusercontent.com/ihexon/BinaryHub/main/mips32_big_endian/sha1sum.txt)
+- [Release](https://raw.githubusercontent.com/ihexon/BinaryHub/main/mips32_big_endian/Release)
+- [ChangeLog](https://github.com/ihexon/BinaryHub/blame/main/mips32_big_endian/ChangeLog)
+- [BinaryNote.md](./mips32_big_endian/BinaryNote.md)
 
 ## For MIPS32 big endian 
 
 Prebuild binary location: `./mips32_big_endian`. Those binary use to do some hacking in GPON-G140W, Also worked in other mips32 big endian platform.
 
-```bash
+```
 # ELF Header:
   Magic:   7f 45 4c 46 01 02 01 00 00 00 00 00 00 00 00 00
   Class:                             ELF32
