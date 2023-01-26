@@ -5,11 +5,32 @@ Here are some compiled binaries, mainly for MIPS and ARM platforms.
 
 **For security reason all binary with debug_info, not stripped for easily debug**
 
+Before download any binary, these few files will help you and save your time.
+
+sha1sum of all binary: [sha1sum.txt](https://raw.githubusercontent.com/ihexon/BinaryHub/main/mips32_big_endian/sha1sum.txt)
+Release version: [Release](https://raw.githubusercontent.com/ihexon/BinaryHub/main/mips32_big_endian/Release)
+Changelog: [ChangeLog](https://github.com/ihexon/BinaryHub/blame/main/mips32_big_endian/ChangeLog)
+[BinaryNote.md](./mips32_big_endian/BinaryNote.md)
+
 ## For MIPS32 big endian 
-Those binary use to do some hacking in GPON-G140W, Also worked in other mips32 big endian platforme.
-```kernel
+
+Prebuild binary location: `./mips32_big_endian`. Those binary use to do some hacking in GPON-G140W, Also worked in other mips32 big endian platform.
+
+```bash
+# ELF Header:
+  Magic:   7f 45 4c 46 01 02 01 00 00 00 00 00 00 00 00 00
+  Class:                             ELF32
+  Data:                              2's complement, big endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              EXEC (Executable file)
+  Machine:                           MIPS R3000
+  Version:                           0x1
+
 # Kernel version
 Linux (none) 3.18.21 #4 SMP Tue Nov 22 16:34:26 CST 2022 mips GNU/Linux
+
 # CPU INFO
 system type             : EcoNet EN751221 SOC
 machine                 : Unknown
@@ -23,13 +44,4 @@ extra interrupt vector  : yes
 hardware watchpoint     : yes, count: 4, address/irw mask: [0x0ffc, 0x0ffc, 0x0ffb, 0x0ffb]
 isa                     : mips1 mips2 mips32r1 mips32r2
 ASEs implemented        : mips16 dsp mt
-```
-
-All binary build for `MIPS32 version 1 (SYSV)`, and statically linked. 
-
-```binary
-e8884f5beb37ff66c9d24f3b71584811f8b426b8  mips32_big_endian/strace
-429b5f9213b8492b62e8444da551d86a5758ab24  mips32_big_endian/tcpdump
-a43067848838ab756216065760307fd4fac8935e  mips32_big_endian/zerotier-one
-961a560f3aabf610bcadc3a04605e0fe571dc078  mips32_big_endian/busybox
 ```

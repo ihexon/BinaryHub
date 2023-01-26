@@ -1,4 +1,6 @@
 -----------------
+GNU netcat 0.7.1, a rewrite of the famous networking tool.
+-----------------
 tcpdump version 4.99.2
 libpcap version 1.10.2 (with TPACKET_V3)
 ------------------
